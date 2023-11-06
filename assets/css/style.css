@@ -16,6 +16,7 @@ Made by:
 # General
 --------------------------------------------------------------*/
 body {
+  zoom: normal;
   font-family: "Open Sans", sans-serif;
   color: var(--accentcolor);
 }
@@ -392,7 +393,7 @@ color: var(--accentcolor);
 
 @media (max-width: 1196) {
 #hero {
-  margin-right:15px;
+  margin-right:30px;
   text-align: center;
 }
 
@@ -414,6 +415,7 @@ color: var(--accentcolor);
 section {
 padding: 60px 0 0 0 ;
 overflow: hidden;
+background-color: var(--backgroundcolor);
 }
 
 .section-title {
@@ -469,6 +471,14 @@ color: white;
 margin-bottom: 0;
 }
 
+.termsandconditions {
+  color: var(--accentcolor);
+  background-color: var(--backgroundcolor);
+  border: 1px solid var(--accentcolor);
+  padding: 20px;
+  border-radius: 20px;
+
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
